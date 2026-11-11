@@ -18,9 +18,11 @@ Designing and refining system instructions, conversational roles, and response b
 
 Working with short-term conversational context and longer-term memory so that interactions remain consistent over time. The focus is the behavior users experience: continuity, relevant recall, and fewer contradictions.
 
-### Model Selection and Inference
+### Model Selection and Inference Optimization
 
 Comparing suitable language models and inference configurations against the actual task. Selecting deployment options around output quality, response latency, GPU memory, and operating cost; investigating bottlenecks and optimizing inference performance.
+
+**Hands-on inference engineering:** designed and validated optimizations including **KV-cache reuse**, balancing response latency, GPU memory use, and dialogue quality.
 
 ### Evaluation and Regression Checks
 
@@ -42,7 +44,7 @@ The engineering work extends from individual responses to how the model behaves 
 | Responses arrive within practical hardware and cost constraints | Model selection, GPU deployment, inference configuration, and performance analysis |
 | A model or prompt change should preserve established behavior | Repeatable evaluation scenarios, human review, and agent-based regression checks |
 
-**Areas:** Python · self-hosted LLMs · prompt engineering · conversational memory · multilingual behavior · GPU inference · model evaluation
+**Areas:** Python · self-hosted LLMs · prompt engineering · conversational memory · multilingual behavior · KV-cache optimization · GPU inference · model evaluation
 
 Product identities, source code, system prompts, internal configurations, and project-specific benchmarks remain confidential.
 
