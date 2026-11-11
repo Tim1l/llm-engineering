@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title description">
+  <title id="title">LLM Systems Engineering</title>
+  <desc id="description">Conceptual portfolio cover for language-model behavior, context, evaluation, and inference engineering.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101d2a"/>
+      <stop offset="1" stop-color="#071117"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#29d5bf" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#29d5bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#79ead6" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#4880bc" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#203e4a"/>
+      <stop offset="1" stop-color="#11222e"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#74b4ba" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="520" rx="22" fill="url(#background)"/>
+  <rect width="1600" height="520" rx="22" fill="url(#grid)"/>
+  <circle cx="1280" cy="260" r="355" fill="url(#glow)"/>
+  <rect x="80" y="64" width="5" height="23" rx="2.5" fill="#62e4ca"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="103" y="82" fill="#a0c2ca" font-size="18" letter-spacing="3">LANGUAGE MODELS / PRODUCT ENGINEERING</text>
+    <text x="76" y="201" fill="#f1f8fa" font-size="78" font-weight="700" letter-spacing="-2">LLM SYSTEMS</text>
+    <text x="76" y="291" fill="#78e3d0" font-size="78" font-weight="700" letter-spacing="-2">ENGINEERING</text>
+    <text x="82" y="350" fill="#a8bdc9" font-size="23">Consistent behavior. Measured quality. Practical performance.</text>
+    <g fill="#102731" stroke="#365764" stroke-width="1">
+      <rect x="80" y="403" width="181" height="47" rx="12"/>
+      <rect x="278" y="403" width="181" height="47" rx="12"/>
+      <rect x="476" y="403" width="181" height="47" rx="12"/>
+      <rect x="674" y="403" width="181" height="47" rx="12"/>
+    </g>
+    <g fill="#cde5e9" font-size="15" letter-spacing="1.6" text-anchor="middle">
+      <text x="170" y="433">BEHAVIOR</text>
+      <text x="368" y="433">CONTEXT</text>
+      <text x="566" y="433">EVALUATION</text>
+      <text x="764" y="433">INFERENCE</text>
+    </g>
+    <g fill="none" stroke="url(#orbit)" stroke-width="1.5">
+      <circle cx="1280" cy="260" r="177"/>
+      <ellipse cx="1280" cy="260" rx="205" ry="75" transform="rotate(-34 1280 260)"/>
+      <ellipse cx="1280" cy="260" rx="205" ry="75" transform="rotate(37 1280 260)"/>
+      <circle cx="1280" cy="260" r="215" stroke-dasharray="2 12" opacity="0.35"/>
+    </g>
+    <circle cx="1115" cy="190" r="6" fill="#7be9d1"/>
+    <circle cx="1438" cy="347" r="5" fill="#77b9f2"/>
+    <circle cx="1338" cy="92" r="4" fill="#a2d6df"/>
+    <path d="M1191 201H1371A18 18 0 0 1 1389 219V297A18 18 0 0 1 1371 315H1264L1225 341V315H1191A18 18 0 0 1 1173 297V219A18 18 0 0 1 1191 201Z" fill="url(#glass)" stroke="#77ceca" stroke-opacity="0.65"/>
+    <rect x="1206" y="234" width="145" height="8" rx="4" fill="#83e5d4" opacity="0.85"/>
+    <rect x="1206" y="254" width="119" height="8" rx="4" fill="#93b8c8" opacity="0.60"/>
+    <rect x="1206" y="274" width="77" height="8" rx="4" fill="#93b8c8" opacity="0.35"/>
+    <rect x="1395" y="126" width="76" height="62" rx="16" fill="#132c37" stroke="#3e6f7a"/>
+    <text x="1433" y="166" fill="#88dfd6" font-size="30" text-anchor="middle">{ }</text>
+    <rect x="1077" y="348" width="84" height="61" rx="16" fill="#132c37" stroke="#3e6f7a"/>
+    <text x="1119" y="387" fill="#a5d9e5" font-size="30" text-anchor="middle">…</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1599" height="519" rx="21.5" fill="none" stroke="#385561" stroke-opacity="0.5"/>
+</svg>
