@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" viewBox="0 0 1440 800" role="img" aria-labelledby="title description">
+  <title id="title">LLM engineering capabilities</title>
+  <desc id="description">Six general areas of language-model engineering: behavior and role, context and memory, multilingual quality, model selection, inference and KV cache, and evaluation and regression.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#14232f"/>
+      <stop offset="1" stop-color="#08131b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#172d39"/>
+      <stop offset="1" stop-color="#10212d"/>
+    </linearGradient>
+    <radialGradient id="light">
+      <stop stop-color="#70d9cb" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#70d9cb" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#87b6bf" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="800" rx="24" fill="url(#background)"/>
+  <rect width="1440" height="800" rx="24" fill="url(#grid)"/>
+  <ellipse cx="1270" cy="70" rx="420" ry="290" fill="url(#light)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="64" y="55" width="5" height="23" rx="2.5" fill="#7ce2cf"/>
+    <text x="86" y="73" font-size="17" letter-spacing="2.7" fill="#9fc0ca">BEHAVIOR · QUALITY · PERFORMANCE</text>
+    <text x="62" y="131" font-size="43" font-weight="700" letter-spacing="-1.2" fill="#f1f7fa">LLM ENGINEERING CAPABILITIES</text>
+
+    <g fill="url(#panel)" stroke="#2a4857" stroke-width="1.2">
+      <rect x="64" y="168" width="644" height="160" rx="22"/>
+      <rect x="732" y="168" width="644" height="160" rx="22"/>
+      <rect x="64" y="346" width="644" height="160" rx="22"/>
+      <rect x="732" y="346" width="644" height="160" rx="22"/>
+      <rect x="64" y="524" width="644" height="160" rx="22"/>
+      <rect x="732" y="524" width="644" height="160" rx="22"/>
+    </g>
+
+    <g fill="#153b43">
+      <rect x="88" y="194" width="50" height="50" rx="14"/>
+      <rect x="756" y="194" width="50" height="50" rx="14"/>
+    </g>
+    <g fill="#173649">
+      <rect x="88" y="372" width="50" height="50" rx="14"/>
+      <rect x="756" y="372" width="50" height="50" rx="14"/>
+    </g>
+    <g fill="#28344d">
+      <rect x="88" y="550" width="50" height="50" rx="14"/>
+      <rect x="756" y="550" width="50" height="50" rx="14"/>
+    </g>
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2">
+      <g stroke="#80dfcc">
+        <path d="M101 207H125A4 4 0 0 1 129 211V225A4 4 0 0 1 125 229H115L108 235V229H101A4 4 0 0 1 97 225V211A4 4 0 0 1 101 207Z"/>
+        <path d="M105 216H121M105 222H115"/>
+        <rect x="766" y="205" width="29" height="11" rx="3"/>
+        <rect x="766" y="221" width="29" height="11" rx="3"/>
+        <path d="M773 210H788M773 226H788"/>
+      </g>
+      <g stroke="#8bc4ed">
+        <circle cx="113" cy="397" r="15"/>
+        <ellipse cx="113" cy="397" rx="6" ry="15"/>
+        <path d="M98 397H128M101 389H125M101 405H125"/>
+        <rect x="765" y="381" width="31" height="31" rx="7"/>
+        <path d="M771 389H789M771 397H789M771 405H780"/>
+        <path d="M784 404L787 407 793 400"/>
+      </g>
+      <g stroke="#b1b9ef">
+        <rect x="102" y="564" width="22" height="22" rx="4"/>
+        <path d="M107 569H119V581H107ZM97 570H102M97 580H102M124 570H129M124 580H129M108 559V564M118 559V564M108 586V591M118 586V591"/>
+        <rect x="766" y="560" width="29" height="31" rx="5"/>
+        <path d="M773 568L777 572 786 563M773 582H787"/>
+      </g>
+    </g>
+
+    <g fill="#eff7fa" font-size="27" font-weight="700" letter-spacing="-0.5">
+      <text x="160" y="215">Behavior &amp; Role</text>
+      <text x="828" y="215">Context &amp; Memory</text>
+      <text x="160" y="393">Multilingual Quality</text>
+      <text x="828" y="393">Model Selection</text>
+      <text x="160" y="571">Inference &amp; KV Cache</text>
+      <text x="828" y="571">Evaluation &amp; Regression</text>
+    </g>
+    <g fill="#b1c7d1" font-size="19">
+      <text x="160" y="255">Keep personality, tone, and response behavior</text>
+      <text x="160" y="284">aligned with the product.</text>
+      <text x="828" y="255">Maintain relevant facts and preferences</text>
+      <text x="828" y="284">across longer conversations.</text>
+      <text x="160" y="433">Preserve the role and key facts</text>
+      <text x="160" y="462">when the language changes.</text>
+      <text x="828" y="433">Match model choices to task quality,</text>
+      <text x="828" y="462">hardware, and operating requirements.</text>
+      <text x="160" y="611">Balance latency, GPU memory, and quality</text>
+      <text x="160" y="640">through inference optimization.</text>
+      <text x="828" y="611">Compare changes on repeatable scenarios</text>
+      <text x="828" y="640">with human and agent-based review.</text>
+    </g>
+    <path d="M64 725H1376" stroke="#294753"/>
+    <text x="720" y="761" font-size="18" fill="#8eafb9" text-anchor="middle">Engineering capabilities · General overview</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1439" height="799" rx="23.5" fill="none" stroke="#3d5b66" stroke-opacity="0.55"/>
+</svg>

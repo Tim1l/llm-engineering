@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title description">
+  <title id="title">One role. Two languages.</title>
+  <desc id="description">An authored illustrative conversation with a fictional game guide. The user requests brief answers without spoilers, switches from English to Spanish, and the guide recalls the earlier preferences.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#14232f"/>
+      <stop offset="1" stop-color="#08131b"/>
+    </linearGradient>
+    <linearGradient id="userPanel" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#1b2e40"/>
+      <stop offset="1" stop-color="#142635"/>
+    </linearGradient>
+    <linearGradient id="guidePanel" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#163a3d"/>
+      <stop offset="1" stop-color="#123039"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#87b6bf" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="760" rx="24" fill="url(#background)"/>
+  <rect width="1440" height="760" rx="24" fill="url(#grid)"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="64" y="44" width="5" height="26" rx="2.5" fill="#7ce2cf"/>
+    <text x="88" y="72" font-size="43" font-weight="700" letter-spacing="-0.8" fill="#f0f7fa">ONE ROLE. TWO LANGUAGES.</text>
+    <text x="64" y="121" font-size="22" fill="#b0c9d2">Illustrative scenario — authored for this portfolio</text>
+
+    <rect x="64" y="164" width="1230" height="96" rx="20" fill="url(#userPanel)" stroke="#365367"/>
+    <rect x="146" y="280" width="1230" height="96" rx="20" fill="url(#guidePanel)" stroke="#386763"/>
+    <rect x="64" y="396" width="1230" height="96" rx="20" fill="url(#userPanel)" stroke="#365367"/>
+    <rect x="146" y="512" width="1230" height="96" rx="20" fill="url(#guidePanel)" stroke="#386763"/>
+
+    <g font-size="14" font-weight="700" letter-spacing="2">
+      <text x="88" y="191" fill="#9fc5e8">USER</text>
+      <text x="170" y="307" fill="#8fdfc9">GUIDE</text>
+      <text x="88" y="423" fill="#9fc5e8">USER</text>
+      <text x="170" y="539" fill="#8fdfc9">GUIDE</text>
+    </g>
+    <g font-size="25" fill="#f0f6f9">
+      <text x="88" y="231">I’m Alex. Keep answers brief and don’t spoil the ending.</text>
+      <text x="170" y="347">Got it, Alex. Short hints, no spoilers.</text>
+      <text x="88" y="463">Sigamos en español. ¿Qué te pedí al principio?</text>
+      <text x="170" y="579">Respuestas breves y sin revelar el final, Alex.</text>
+    </g>
+
+    <g fill="#122b35" stroke="#35525f">
+      <rect x="64" y="652" width="426" height="52" rx="14"/>
+      <rect x="506" y="652" width="426" height="52" rx="14"/>
+      <rect x="948" y="652" width="426" height="52" rx="14"/>
+    </g>
+    <g fill="#cce6e8" font-size="19" text-anchor="middle">
+      <text x="277" y="685">Role continuity</text>
+      <text x="719" y="685">Remembered preferences</text>
+      <text x="1161" y="685">Language switching</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1439" height="759" rx="23.5" fill="none" stroke="#3d5b66" stroke-opacity="0.55"/>
+</svg>

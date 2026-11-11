@@ -10,6 +10,8 @@ I develop and configure language-model systems for AI products, focusing on cons
 
 ## What I Work On
 
+![LLM engineering capabilities: behavior, context, languages, model selection, KV-cache optimization, and evaluation](images/llm-capabilities.svg)
+
 ### Model Behavior and Dialogue Quality
 
 Designing and refining system instructions, conversational roles, and response behavior around a product's requirements. This includes maintaining a consistent personality, handling multilingual conversations, and keeping facts and descriptions coherent across a dialogue.
@@ -52,6 +54,11 @@ Product identities, source code, system prompts, internal configurations, and pr
 
 *Illustrative scenario, authored for this portfolio to show behavior requirements for a fictional game guide.*
 
+![Authored illustrative conversation showing role continuity, remembered preferences, and language switching](images/conversation-scenario.svg)
+
+<details>
+<summary>Read the scenario as text</summary>
+
 > **User:** I'm Alex. Please keep your answers brief and don't spoil the ending.
 >
 > **Guide:** Got it, Alex. Short hints, no spoilers.
@@ -59,6 +66,8 @@ Product identities, source code, system prompts, internal configurations, and pr
 > **User:** Sigamos en español. ¿Qué te pedí al principio?
 >
 > **Guide:** Respuestas breves y sin revelar el final, Alex.
+
+</details>
 
 This example illustrates the combination of language switching, remembered preferences, and a consistent conversational role.
 
