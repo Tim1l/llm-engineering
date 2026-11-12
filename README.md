@@ -1,83 +1,60 @@
-![LLM Systems Engineering — behavior, context, evaluation, and inference](images/llm-engineering-cover.svg)
+![LLM systems engineering — behavior, context and inference shaped around a product](images/llm-control-v2.gif)
 
 # LLM Systems Engineering
 
-**Model behavior · Memory and context · Evaluation · Inference performance**
+**Make the model fit the product.**
 
-I develop and configure language-model systems for AI products, focusing on consistent behavior, dialogue quality, and practical inference performance. I select pre-trained models to match the task, then work on their behavior, integration, and deployment around the product's requirements.
+I build and improve conversational AI systems: how they behave, what they remember, how they handle language changes, and how they run within hardware constraints. I select suitable pretrained models, then develop the behavior, evaluation and inference around the product's requirements.
 
-[Discuss a project on Upwork](https://www.upwork.com/freelancers/~01d554f7011bd884f2) · [LinkedIn](https://www.linkedin.com/in/tim-izmailov-a53524283/)
+[Improve an assistant](#improve-an-existing-assistant) · [Build an LLM component](#build-an-llm-component) · [Optimize inference](#optimize-inference)
 
-## What I Work On
+*Conceptual illustration: shaping behavior, context and inference around a product.*
 
-![LLM engineering capabilities: behavior, context, languages, model selection, KV-cache optimization, and evaluation](images/llm-capabilities.svg)
+## CTO — Hands-on AI Engineering
 
-### Model Behavior and Dialogue Quality
+As **CTO of a confidential AI product**, I took sole hands-on responsibility for AI engineering, including its conversational component.
 
-Designing and refining system instructions, conversational roles, and response behavior around a product's requirements. This includes maintaining a consistent personality, handling multilingual conversations, and keeping facts and descriptions coherent across a dialogue.
+The challenge was to build a consistent personality and conversational experience: coherent facts, descriptions and actions; short-term context and longer-term memory; multilingual behavior; and practical response times within GPU constraints.
 
-### Memory and Context
+I compared suitable models, developed and refined system instructions, configured inference, and designed and validated optimizations including **KV-cache reuse**. I evaluated changes personally, with human testers, and through systematic agent-based checks, while coordinating integration with backend and product teams.
 
-Working with short-term conversational context and longer-term memory so that interactions remain consistent over time. The focus is the behavior users experience: continuity, relevant recall, and fewer contradictions.
+This experience connects behavior design with the engineering needed to integrate, evaluate and run the model as part of a larger product.
 
-### Model Selection and Inference Optimization
+## Improve an Existing Assistant
 
-Comparing suitable language models and inference configurations against the actual task. Selecting deployment options around output quality, response latency, GPU memory, and operating cost; investigating bottlenecks and optimizing inference performance.
+For inconsistent responses, role drift, forgotten context or regressions after changes.
 
-**Hands-on inference engineering:** designed and validated optimizations including **KV-cache reuse**, balancing response latency, GPU memory use, and dialogue quality.
+I investigate representative failures, refine the behavior and context handling, and establish scenarios for checking subsequent changes.
 
-### Evaluation and Regression Checks
+**A focused first milestone:** a clear problem definition, prioritized findings, agreed quality criteria, and a targeted improvement checked against those criteria.
 
-Evaluating changes through personal review, human testers, and systematic agent-based checks. Using consistent scenarios to compare behavior and identify regressions while separating application correctness from the quality of generated responses.
+## Build an LLM Component
 
-## My Experience and Responsibility
+For a product that needs a conversational role, memory, multilingual interactions or self-hosted inference.
 
-My experience includes sole responsibility for AI engineering within a confidential product, alongside work on another private conversational AI system. I have owned behavior requirements, model comparisons, inference tuning, quality evaluation, and coordination with product and backend development.
+I translate the requirements into model selection, behavior design, Python integration and deployment decisions.
 
-The engineering work extends from individual responses to how the model behaves within a larger product: what it remembers, how it maintains its role, how changes are evaluated, and how it performs within GPU constraints.
+**A focused first milestone:** an agreed behavior and deployment plan, followed by a working slice of the LLM component for review.
 
-## Product Requirements I Work With
+## Optimize Inference
 
-| Product need | Engineering focus |
-| --- | --- |
-| A conversational role stays consistent through a long exchange | System instructions, behavior refinement, and scenario-based evaluation |
-| Earlier facts and preferences remain relevant later | Short-term context, longer-term memory, and continuity checks |
-| Users switch languages during a conversation | Multilingual behavior and consistency of the role and remembered facts |
-| Responses arrive within practical hardware and cost constraints | Model selection, GPU deployment, inference configuration, and performance analysis |
-| A model or prompt change should preserve established behavior | Repeatable evaluation scenarios, human review, and agent-based regression checks |
+For response latency, GPU-memory pressure or operating-cost constraints.
 
-**Areas:** Python · self-hosted LLMs · prompt engineering · conversational memory · multilingual behavior · KV-cache optimization · GPU inference · model evaluation
+I investigate bottlenecks and evaluate model, deployment and inference choices, including KV-cache optimization where appropriate, while checking response quality.
 
-Product identities, source code, system prompts, internal configurations, and project-specific benchmarks remain confidential.
-
-## Illustrative Conversation
-
-*Illustrative scenario, authored for this portfolio to show behavior requirements for a fictional game guide.*
-
-![Authored illustrative conversation showing role continuity, remembered preferences, and language switching](images/conversation-scenario.svg)
+**A focused first milestone:** a measured baseline, bottleneck analysis, and documented results from agreed optimization experiments.
 
 <details>
-<summary>Read the scenario as text</summary>
+<summary><strong>How changes are evaluated</strong></summary>
 
-> **User:** I'm Alex. Please keep your answers brief and don't spoil the ending.
->
-> **Guide:** Got it, Alex. Short hints, no spoilers.
->
-> **User:** Sigamos en español. ¿Qué te pedí al principio?
->
-> **Guide:** Respuestas breves y sin revelar el final, Alex.
+![General evaluation workflow for agreeing requirements, comparing changes and checking quality](images/llm-quality-loop-v2.svg)
+
+Representative scenarios, human review and agent-based checks support comparison and regression checks. Application correctness and generated-response quality are evaluated separately. This is a general workflow overview.
 
 </details>
 
-This example illustrates the combination of language switching, remembered preferences, and a consistent conversational role.
+Send the intended behavior, examples of the current problem, and your infrastructure constraints. We can define a first paid milestone with clear deliverables and review criteria.
 
-## Work With Me
+[Discuss a project on Upwork](https://www.upwork.com/freelancers/~01d554f7011bd884f2) · [Connect on LinkedIn](https://www.linkedin.com/in/tim-izmailov-a53524283/)
 
-- **LLM behavior and quality review:** investigate inconsistent responses, role drift, context problems, and quality regressions; define concrete improvement and evaluation criteria.
-- **Model selection and self-hosted deployment:** compare suitable models, configure inference, and integrate the language-model component with the product.
-- **Inference optimization:** investigate latency and resource use, evaluate changes, and document measured trade-offs.
-- **Evaluation workflows:** establish repeatable scenarios and review processes for model or prompt changes.
-
-A useful starting brief describes the intended behavior, representative examples of the current problem, and the product's response-time and infrastructure requirements.
-
-[Send a project brief on Upwork](https://www.upwork.com/freelancers/~01d554f7011bd884f2) · [Connect on LinkedIn](https://www.linkedin.com/in/tim-izmailov-a53524283/)
+Product identities, source code, system prompts, internal configurations and project-specific benchmarks remain confidential.

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 1280 600" role="img" aria-labelledby="title desc">
+  <title id="title">Changes you can evaluate — a general LLM quality workflow</title>
+  <desc id="desc">Agree on product requirements, choose representative scenarios, review and compare with humans and agents, then refine and re-check against the same criteria. Evaluation covers behavior, context continuity, languages and inference constraints. This is a general process illustration.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172332"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="80" y1="202" x2="965" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76dccd"/>
+      <stop offset="1" stop-color="#b8a2f5"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1 1.5 7 4.5 1 7.5" fill="none" stroke="#9eadd0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="loop-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1 1.5 8 5 1 8.5" fill="none" stroke="#76dccd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x=".5" y=".5" width="1279" height="599" rx="18" fill="url(#background)" stroke="#304153"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="51" fill="#a6b8c9" font-size="13" letter-spacing="2.2">A GENERAL EVALUATION WORKFLOW</text>
+    <text x="72" y="110" fill="#f0f3f7" font-size="40" letter-spacing="-.7">Changes you can evaluate.</text>
+    <text x="72" y="148" fill="#b8c5d2" font-size="20">Agree on the criteria before changing the system.</text>
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M100 202H347" stroke="url(#flow)" stroke-width="2" marker-end="url(#arrow)"/>
+      <path d="M395 202H642" stroke="url(#flow)" stroke-width="2" marker-end="url(#arrow)"/>
+      <path d="M690 202H937" stroke="url(#flow)" stroke-width="2" marker-end="url(#arrow)"/>
+    </g>
+    <g font-size="12" text-anchor="middle" font-weight="bold">
+      <circle cx="80" cy="202" r="17" fill="#172332" stroke="#76dccd" stroke-width="1.5"/>
+      <text x="80" y="206" fill="#a4ece1">01</text>
+      <circle cx="375" cy="202" r="17" fill="#172332" stroke="#8bcedc" stroke-width="1.5"/>
+      <text x="375" y="206" fill="#b9e4ec">02</text>
+      <circle cx="670" cy="202" r="17" fill="#172332" stroke="#a0b9e9" stroke-width="1.5"/>
+      <text x="670" y="206" fill="#ccdaf4">03</text>
+      <circle cx="965" cy="202" r="17" fill="#172332" stroke="#b8a2f5" stroke-width="1.5"/>
+      <text x="965" y="206" fill="#d7cafa">04</text>
+    </g>
+
+    <g fill="#eef2f6" font-size="32" letter-spacing="-.5">
+      <text x="72" y="254">Product</text>
+      <text x="72" y="291">requirements</text>
+      <text x="367" y="254">Representative</text>
+      <text x="367" y="291">scenarios</text>
+      <text x="662" y="254">Review</text>
+      <text x="662" y="291">&amp; compare</text>
+      <text x="957" y="254">Refine</text>
+      <text x="957" y="291">&amp; re-check</text>
+    </g>
+    <g fill="#aebfd0" font-size="20">
+      <text x="72" y="333">Intended behavior</text>
+      <text x="72" y="362">Practical constraints</text>
+      <text x="367" y="333">Tasks and edge cases</text>
+      <text x="367" y="362">Consistent comparisons</text>
+      <text x="662" y="333">Human review</text>
+      <text x="662" y="362">Agent-based checks</text>
+      <text x="957" y="333">Evaluate the change</text>
+      <text x="957" y="362">Look for regressions</text>
+    </g>
+
+    <path d="M965 386V402Q965 426 941 426H104Q80 426 80 402V386" fill="none" stroke="#6fa7ad" stroke-width="1.5" marker-end="url(#loop-arrow)"/>
+    <rect x="329" y="412" width="388" height="28" rx="14" fill="#152030"/>
+    <text x="523" y="431" fill="#b9d9da" font-size="13" letter-spacing="1.2" text-anchor="middle">REPEAT AGAINST THE SAME CRITERIA</text>
+
+    <path d="M72 482H1208" stroke="#344254"/>
+    <text x="72" y="515" fill="#8fa4b8" font-size="13" letter-spacing="1.8">WHAT THE SCENARIOS COVER</text>
+    <g font-size="22" fill="#dce6ef">
+      <circle cx="78" cy="554" r="3" fill="#76dccd"/>
+      <text x="94" y="561">Behavior</text>
+      <circle cx="330" cy="554" r="3" fill="#8bcedc"/>
+      <text x="346" y="561">Context continuity</text>
+      <circle cx="669" cy="554" r="3" fill="#a0b9e9"/>
+      <text x="685" y="561">Languages</text>
+      <circle cx="930" cy="554" r="3" fill="#b8a2f5"/>
+      <text x="946" y="561">Inference constraints</text>
+    </g>
+  </g>
+</svg>
