@@ -2,9 +2,11 @@
 
 # LLM Systems Engineering
 
-**Make the model fit the product.**
+**Make your AI assistant useful for your business.**
 
-I build and improve conversational AI systems: how they behave, what they remember, how they handle language changes, and how they run within hardware constraints. I select suitable pretrained models, then develop the behavior, evaluation and inference around the product's requirements.
+An assistant can sound fluent while forgetting earlier details, contradicting its own answers or giving generic replies that leave the user stuck. Your team and customers end up repeating themselves instead of moving the task forward.
+
+I diagnose these failures, refine behavior and context handling, and check improvements against representative tasks from your business. I also build LLM components and optimize inference, selecting suitable pretrained models around the product's requirements and hardware constraints.
 
 [Improve an assistant](#improve-an-existing-assistant) · [Build an LLM component](#build-an-llm-component) · [Optimize inference](#optimize-inference)
 
@@ -19,6 +21,10 @@ The challenge was to build a consistent personality and conversational experienc
 I compared suitable models, developed and refined system instructions, configured inference, and designed and validated optimizations including **KV-cache reuse**. I evaluated changes personally, with human testers, and through systematic agent-based checks, while coordinating integration with backend and product teams.
 
 This experience connects behavior design with the engineering needed to integrate, evaluate and run the model as part of a larger product.
+
+![Illustrative service scenarios: improving an assistant, building an LLM component and investigating inference bottlenecks](images/llm-starting-point-v3.gif)
+
+[Improve my assistant](#improve-an-existing-assistant) · [Build my LLM component](#build-an-llm-component) · [Optimize my inference](#optimize-inference)
 
 ## Improve an Existing Assistant
 
@@ -44,10 +50,12 @@ I investigate bottlenecks and evaluate model, deployment and inference choices, 
 
 **A focused first milestone:** a measured baseline, bottleneck analysis, and documented results from agreed optimization experiments.
 
-<details>
-<summary><strong>How changes are evaluated</strong></summary>
+## How Changes Are Evaluated
 
 ![General evaluation workflow for agreeing requirements, comparing changes and checking quality](images/llm-quality-loop-v2.svg)
+
+<details>
+<summary><strong>About the evaluation process</strong></summary>
 
 Representative scenarios, human review and agent-based checks support comparison and regression checks. Application correctness and generated-response quality are evaluated separately. This is a general workflow overview.
 
